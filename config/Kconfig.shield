@@ -1,0 +1,5 @@
+config SHIELD_bfo9000
+    def_bool $(shields_list_contains,bfo9000_left)
+
+config SHIELD_bfo9000
+    def_bool $(shields_list_contains,bfo9000_right)
