@@ -1,20 +1,9 @@
 if SHIELD_ZMK100_LEFT
 
-# Nombre menor a 16 caracteres
 config ZMK_KEYBOARD_NAME
     default "zmk100"
 
-# Este lado es el central (host Bluetooth)
 config ZMK_SPLIT_ROLE_CENTRAL
-    default y
-
-endif
-
-
-if SHIELD_ZMK100_RIGHT
-
-# Este lado es el peripheral
-config ZMK_SPLIT_ROLE_PERIPHERAL
     default y
 
 endif
@@ -22,7 +11,6 @@ endif
 
 if SHIELD_ZMK100_LEFT || SHIELD_ZMK100_RIGHT
 
-# Habilita split en ambos lados
 config ZMK_SPLIT
     default y
 

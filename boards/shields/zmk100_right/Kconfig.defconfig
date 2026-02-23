@@ -1,6 +1,5 @@
-if SHIELD_ZMK100
+if SHIELD_ZMK100_LEFT
 
-# Name must be less than 16 characters long!
 config ZMK_KEYBOARD_NAME
     default "zmk100"
 
@@ -9,7 +8,8 @@ config ZMK_SPLIT_ROLE_CENTRAL
 
 endif
 
-if SHIELD_ZMK100
+
+if SHIELD_ZMK100_LEFT || SHIELD_ZMK100_RIGHT
 
 config ZMK_SPLIT
     default y
