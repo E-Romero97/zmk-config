@@ -1,4 +1,4 @@
-#include "bfo9000.dtsi"
+#include "zmk100.dtsi"
 
 &kscan0 {
     col-gpios =
