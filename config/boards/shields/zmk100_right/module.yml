@@ -1,0 +1,7 @@
+name: zmk-keyboard-zmk100_right
+type: module
+version: 0.1.0
+description: ZMK shield for the left half of ZMK100 keyboard
+dependencies:
+  - zmk: "*"
+s
